@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&family=Urbanist:wght@500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    h1 {
+        font-family: 'Urbanist', 'sans-serif';
+        font-weight: 900;
+    }
+    .contentbox {
+        width: 100vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .gradient {
+        background: rgb(255,107,254);
+        background: linear-gradient(90deg, rgba(255,107,254,1) 0%, rgba(0,43,255,1) 100%); 
+    }
+}
