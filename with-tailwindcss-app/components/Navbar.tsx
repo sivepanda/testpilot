@@ -1,17 +1,21 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const Navbar: NextPage = () => {
+  var height = 100
   return (
-    <nav className='gradient'>
+    <nav className='navbar'>
         <div className='logo'>
-            <h1 className="text-3xl text-white">TwentyTwoLabs</h1>
+          <Image src="/ttl_bw.svg" alt="TwentyTwoLabs" width={height} height={height} />
         </div>
-        <Link href='/'><a>Home</a></Link>
-        <Link href='/videos'><a>Videos</a></Link>
-        <Link href='/quizzes'><a>Quizzes</a></Link>
-        <Link href='/about'><a>About</a></Link>
+        <div className='links'>
+          <Link href='/'><a className='navlink'>Home</a></Link>
+          <Link href='/videos'><a className='navlink'>Videos</a></Link>
+          <Link href='/quizzes'><a className='navlink'>Quizzes</a></Link>
+          <Link href='/about'><a className='navlink'>About</a></Link>
+        </div>
     </nav>
   )
 }

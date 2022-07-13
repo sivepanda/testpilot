@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/Navbar'
 
-const Videos: NextPage = () => {
+const Login: NextPage = () => {
   return (
-    <div className='min-h-screen'>
+    <div className='page'>
       <Navbar />
     </div>
   )
 }
 
-export default Videos
+export default Login
