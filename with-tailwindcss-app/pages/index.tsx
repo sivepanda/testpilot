@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           </div>
           <a className="button-main">Let's Go</a>
 
-          <img className='imgcard' src="/question-sign.png" width={height} height={height} />
+          <img className='imgcard' src="/open-book.png" width={height} height={height} />
 
         </div>
       </div>
