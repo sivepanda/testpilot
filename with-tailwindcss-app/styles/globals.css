@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Syne:wght@500;700;800&display=swap');
-
 .page {
     position: absolute;
     margin: 0;
@@ -7,6 +6,7 @@
     top: 0;
     left: 0;
     overflow-x: hidden;
+    overflow-y: none;
     width: 100%;
 }
 
@@ -207,6 +207,7 @@ h1 {
     overflow-y: hidden;
     align-items: center;
     justify-items: center;
+    z-index: 998;
     /* background-color: rgba(164, 164, 164, 0.58) */
     background: inherit;
 }
@@ -243,60 +244,53 @@ h1 {
     color: black;
 }
 
-.navlink:hover{
-    color:#1e0030;
+.navlink:hover {
+    color: #1e0030;
     transition: all ease-in-out 20ms;
-
 }
 
-.subjects{
+.subjects {
     width: 100vw;
     height: 80vh;
 }
 
-
-.subTitle{
+.subTitle {
     text-align: center;
     font-size: 10rem;
     padding-top: 8vh;
     margin-top: 10vh;
 }
 
-
-.subTitle p{
+.subTitle p {
     color: #ac20e8;
-
 }
 
-.bottom{
+.bottom {
     width: 100vw;
     height: 45vh;
     background-color: #D3D3D3;
 }
 
-.imText{
+.imText {
     margin-left: 2%;
     /* padding-top: 70px; */
     padding-right: 12%;
-
 }
 
-.imText img{
+.imText img {
     align-items: center;
     height: 10rem;
     width: 40%;
     /* margin-top: 30px; */
-
 }
 
-.imText p{
+.imText p {
     font-size: 2rem;
     color: black;
     bottom: 50px;
-
 }
 
-.copy{
+.copy {
     display: flex;
     flex-direction: row;
     margin-left: 2%;
@@ -304,60 +298,58 @@ h1 {
     /* background-color: green; */
 }
 
-.copyImg img{
+.copyImg img {
     width: 12px;
     padding-top: 20px;
     margin-left: 4px;
     margin-right: 4px;
 }
 
-.priv{
+.priv {
     margin-left: 55%;
     margin-top: 15px;
     margin-right: -999px;
 }
 
-.priv a{
+.priv a {
     text-decoration: none;
     color: #1a1919;
 }
 
-.priv a:hover{
+.priv a:hover {
     color: #63666A;
 }
 
-.foot{
+.foot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* background-color: green; */
-
 }
 
-.ed{
+.ed {
     /* background-color: aqua; */
     width: 60%;
     margin-top: 3%;
 }
 
-.ed ol{
+.ed ol {
     list-style: none;
     /* background-color: blue; */
     position: relative;
     right: 10%;
 }
 
-.ed a{
+.ed a {
     font-size: 20px;
     color: #63666A;
 }
 
-.ed li{
+.ed li {
     margin-top: 30px;
     font-size: 25px;
 }
 
-.ed li:hover{
+.ed li:hover {
     color: #63666A;
-
 }

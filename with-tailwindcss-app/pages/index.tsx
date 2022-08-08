@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
@@ -93,64 +94,12 @@ const Home: NextPage = () => {
 
         </div>
       </div>
-      <div className='subjects'>
+      <div className='subjects h1'>
         <div className="subTitle">
           <p>SUBJECTS</p>
         </div>
       </div>
-      <div className="bottom">
-        <div className="foot">
-          <div className="imText">
-            <img src="/ttl_bw.svg"></img>
-            <p>Our mission is to help students better understand school from a perspective of highschoolers themselves.</p>
-          </div>
-          <div className = "ed e">
-            <a>Education</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
-          </div>
-          <div className = "ed i">
-            <a>Info</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
-          </div>
-          <div className = "ed s">
-            <a>Socials</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
-          </div>
-          
-        </div>
-        <div className = "copy">
-          <div className="copyright">
-            <p>Copyright</p>
-          </div>
-          <div className = "copyImg">
-            <img src="/start.png"></img>
-          </div>
-          <div className="copyright">
-            <p>2022 TwentyTwoLabs Operations Pty Ltd. All rights reserved.</p>
-          </div>
-          <div className="priv">
-            <Link href=""><a>Privacy Policy</a></Link>
-          </div>
-          <div className="priv">
-            <Link href=""><a>Terms of Use</a></Link>
-          </div>
-          <div className="priv">
-            <Link href=""><a>Legal</a></Link>
-          </div>
-        </div>
-      </div>
+      <Footer/>
     </div>
   )
 }
