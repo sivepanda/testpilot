@@ -12,29 +12,31 @@ const Footer: NextPage = () => {
             <img src="/ttl_bw.svg"></img>
             <p>Our mission is to help students better understand school from a perspective of highschoolers themselves.</p>
           </div>
-          <div className = "ed e">
-            <a>Education</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
-          </div>
-          <div className = "ed i">
-            <a>Info</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
-          </div>
-          <div className = "ed s">
-            <a>Socials</a>
-            <ol>
-              <li>Videos</li>
-              <li>Quizzes</li>
-              <li>Practice</li>
-            </ol>
+          <div className = "linktree">
+            <div className = "ed e">
+              <h1>Education</h1>
+              <ol>
+                <li>Videos</li>
+                <li>Quizzes</li>
+                <li>Practice</li>
+              </ol>
+            </div>
+            <div className = "ed i">
+              <h1>Info</h1>
+              <ol>
+                <li>Videos</li>
+                <li>Quizzes</li>
+                <li>Practice</li>
+              </ol>
+            </div>
+            <div className = "ed s">
+              <h1>Socials</h1>
+              <ol>
+                <li>Videos</li>
+                <li>Quizzes</li>
+                <li>Practice</li>
+              </ol>
+            </div>
           </div>
           
         </div>
@@ -42,15 +44,11 @@ const Footer: NextPage = () => {
           <div className="copyright">
             <p>2022 TwentyTwoLabs Media™. All rights reserved.</p>
           </div>
-          <div className="priv">
-            <Link href=""><a>Privacy Policy</a></Link>
-          </div>
-          <div className="priv">
-            <Link href=""><a>Terms of Use</a></Link>
-          </div>
-          <div className="priv">
-            <Link href=""><a>Legal</a></Link>
-          </div>
+          <ul className="priv">
+            <li><Link href=""><a>Privacy Policy</a></Link></li>
+            <li><Link href=""><a>Terms of Use</a></Link></li>
+            <li><Link href=""><a>Legal</a></Link></li>
+          </ul>
         </div>
       </div>
   )

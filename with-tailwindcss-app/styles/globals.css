@@ -267,51 +267,54 @@ h1 {
 
 .bottom {
     width: 100vw;
-    height: 45vh;
     background-color: #D3D3D3;
 }
 
 .imText {
-    margin-left: 2%;
-    /* padding-top: 70px; */
-    padding-right: 12%;
+    margin-left: 8vw;
+    margin-top: 3vh;
+    /* padding-right: 12%; */
+    width: 40vw;
 }
 
 .imText img {
     align-items: center;
     height: 10rem;
-    width: 40%;
-    /* margin-top: 30px; */
+    margin-bottom: 0;
 }
 
 .imText p {
-    font-size: 2rem;
+    font-size: 0.7vw;
+    width: 20rem;
+    text-align: left;
     color: black;
-    bottom: 50px;
+    margin-top: 0vh;
 }
 
 .copy {
     display: flex;
     flex-direction: row;
-    margin-left: 2%;
+    margin-left: 8vw;
     margin-top: 0%;
     /* background-color: green; */
 }
 
-.copyImg img {
-    width: 12px;
-    padding-top: 20px;
-    margin-left: 4px;
-    margin-right: 4px;
+.priv {
+    margin-left: 38vw;
+    list-style: none;
+    margin-top: 15px;
 }
 
-.priv {
-    margin-left: 55%;
-    margin-top: 15px;
-    margin-right: -999px;
+.priv li {
+    font-family: 'Questrial', 'sans-serif';
+    mix-blend-mode: darken;
+    display: inline-block;
+    padding-left: 2vw;
+    margin-right: 0;
 }
 
 .priv a {
+    font-size: 1vw;
     text-decoration: none;
     color: #1a1919;
 }
@@ -327,29 +330,44 @@ h1 {
     /* background-color: green; */
 }
 
+.linktree {
+    width: 60vw;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: row;
+}
+
 .ed {
-    /* background-color: aqua; */
-    width: 60%;
-    margin-top: 3%;
+    width: 20vw;
+    margin-left: 1vw;
+    padding: 0;
+    /* background-color: blue; */
+
 }
 
 .ed ol {
+    padding-left: 0;
     list-style: none;
-    /* background-color: blue; */
     position: relative;
-    right: 10%;
 }
 
-.ed a {
-    font-size: 20px;
+.ed h1 {
+    text-align: left;
+    font-size: 1.5vw;
     color: #63666A;
 }
 
 .ed li {
-    margin-top: 30px;
-    font-size: 25px;
+    text-align: left;
+    list-style: none;
+    display: block;
+    margin-top: 1em;
+    font-size: 1.2vw;
+    transition: all ease-in-out 200ms;
 }
 
 .ed li:hover {
     color: #63666A;
+    transition: all ease-in-out 200ms;
 }
